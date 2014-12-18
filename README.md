@@ -23,4 +23,6 @@ KeychainIDFA
     
     #import "KeychainIDFA.h"
 
-    [KeychainIDFA IDFA]
+    [KeychainIDFA IDFA]//获取IDFA
+    
+    [KeychainIDFA deleteIDFA]//删除Keychain中IDFA(一般不用)
