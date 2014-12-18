@@ -26,7 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [KeychainIDFA deleteIDFA];
+    //[KeychainIDFA deleteIDFA];
     NSLog(@"%@",[KeychainIDFA IDFA]);
 }
 
